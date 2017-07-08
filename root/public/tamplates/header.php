@@ -1,8 +1,5 @@
 <header>
     <div class="headertop flex-center align-center">
-        <h1>
-            DGBTS GAMING
-        </h1>
     </div>
     <div class="navbar flex-center">
         <ul>

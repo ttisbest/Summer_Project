@@ -79,7 +79,7 @@ Header
 ================================================================*/
 
 .headertop {
-    background-image: url('../img/cigar-banner.jpg');
+    background-image: url('../img/Twitch v2.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -169,7 +169,7 @@ About Products
 ================================================================*/
 
 .main-content{
-    background: url("../img/bg.jpg");
+    background: url("../img/bg.png");
 }
 .main-content h2 {
     font-size: 30px;
