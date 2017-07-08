@@ -12,5 +12,6 @@
                 </div>
         </footer>
     </div>
+        <script src="javascript/canvas.js"></script>
 </body>
 </html>
