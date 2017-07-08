@@ -12,21 +12,9 @@
 </head>
 <body>
     <div class="wrapper">
-		<header>
-			<div class="headertop flex-center align-center">
-				<h1>
-					DGBTS gaming
-				</h1>
-			</div>
-            <div class="navbar flex-center">
-                <ul>
-                    <li><a href="index.php">Home</a></li>
-                    <li><a href="catalogus.php">Shop</a></li>
-                    <li><a href="overons.php">About me</a></li>
-                    <li><a href="contact.php">Contact</a></li>
-                </ul>
-            </div>
-		</header>
+        <?php
+        include_once ("tamplates/header.php");
+        ?>
 		<div class="main-content" >
             <div class="about-us flex align-center flex-center">              
                 <div class="contact-us-form">
@@ -69,18 +57,10 @@
                     </div>
                 </div>
 		</div>
-        <footer>
-            <div class="foot-content">
-                <ul>
-                    <li><a href="https://twitter.com/DGBTSGAMING" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                    <li><a href="https://www.youtube.com/channel/UC-mfPzs8PTZexVAoquKdPuA" target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
-                    <li><a href="https://www.twitch.tv/dgbts" target="_blank"><i class="fa fa-twitch" aria-hidden="true"></i></a></li>
-                </ul>
-            </div>
-            <div class="copyright align-center">
-                <h4>Copyright &copy; 2017, DGBTS Editors</h4></h4>
-            </div>
-        </footer>
+            <?php
+            include_once ("tamplates/foot.php");
+            ?>
+        </div>
     </div>
 </body>
 </html>
