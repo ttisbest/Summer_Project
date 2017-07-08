@@ -6,7 +6,7 @@
     <meta name="keywords" content="Sigars,Sigaren,sigars,sigaren,sigarenhandel,E-sigaret,e-sigaret,e-sigaret vloefstoffen,e-sigaret artikelen,e-sigaret accessoires,E-Sigaret artikelen,E-Sigaret accessoires">
     <meta name="author" content="Crusial Designs">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sigarenhandel Moesdijk</title>
+    <title>DGBTS GAMING</title>
     <link rel="stylesheet" href="css/main.css">
     <script src="https://use.fontawesome.com/3571e1e4e4.js"></script>
 </head>
