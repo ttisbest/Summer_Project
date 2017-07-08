@@ -351,3 +351,21 @@ iframe
 {
     cursor: pointer;
 }
+
+.title
+{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.input-text
+{
+    width: 300px;
+    padding: 10px 30px;
+    margin: 10px 30px;
+    border: solid #f07a19 3px;
+}
+canvas
+{
+    margin-bottom: 15px;
+}
