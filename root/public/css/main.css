@@ -1,0 +1,353 @@
+@font-face {
+    font-family: 'Schluber';
+    src: url('../font/Schluber.eot');
+    src: url('../font/Schluber.eot?#iefix') format('embedded-opentype'),
+        url('../font/Schluber.woff2') format('woff2'),
+        url('../font/Schluber.woff') format('woff'),
+        url('../font/Schluber.ttf') format('truetype'),
+        url('../font/Schluber.svg#../fonts/Schluber') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+.flex{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+}
+.flex-between{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: space-between;
+}
+.flex-around{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: space-around;
+}
+.flex-center{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: center;
+}
+
+.flex-column{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    -o-flex-direction: column;
+    flex-direction: column;
+}
+
+.align-center{
+    -ms-align-items: center;
+    align-items: center;
+    text-align: center;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Schluber;
+}
+.container{
+    width: 1300px;
+    margin: 0 auto;
+}
+/*================================================================
+Header
+================================================================*/
+
+.headertop {
+    background-image: url('../img/cigar-banner.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    width: 100%;
+    height: 550px;
+}
+
+.headertop h1 {
+    font-size: 60px;
+    color: #fff;
+}
+
+.navbar {
+    background-color: #f07a19;
+}
+
+.header-con {
+    background-color: #f07a19;
+}
+
+.header-con h1{
+    color: #fff;
+    width: 600px;
+    margin: 0;
+}
+
+header ul {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    -moz-flex-direction: row;
+    -ms-flex-direction: row;
+    -o-flex-direction: row;
+    flex-direction: row;
+    padding: 32px 20px;
+}
+
+header li {
+
+}
+
+header li a {
+    color: #fff;
+    font-size: 30px;
+    padding: 32px 20px;
+}
+
+header li a:hover {
+    color: #795338;
+    background-color: #fff;
+}
+
+/*================================================================
+Catalogus
+================================================================*/
+.catalogus{
+    width: 900px;
+    margin: 0 0 0 100px;
+}
+.list-group ul {
+    display: inline-block ;
+    width: 275px;
+    background: rgb(200, 200, 200);
+    margin: 0 21px 25px 0;
+    border: 2px solid rgb(120, 120, 120);
+}
+.about-items{
+    padding: 50px 0;
+}
+.catalogus-nav nav{
+    padding: 30px;
+    background: rgb(200, 200, 200);
+}
+.catalogus-nav li{
+    padding: 5px 0;
+    font-size: 2em;
+}
+.list-group img{
+    width:200px;
+}
+/*================================================================
+About Products
+================================================================*/
+
+.main-content{
+    background: url("../img/bg.jpg");
+}
+.main-content h2 {
+    font-size: 30px;
+    margin: 20px;
+    text-align: center;
+}
+.item {
+    text-align: center;
+}
+
+.item img{
+    width: 75%;
+    height: 75%;
+    border-radius: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.item h3, .item p {
+    margin: 20px;
+}
+.item h2{
+    color: #f07a19;
+}
+
+.info p {
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+form textarea {
+    resize: none;
+}
+
+
+.info a {
+    background: rgb(120, 120, 120);
+    padding: 10px 20px;
+    color: #FFF;
+}
+
+.info a:hover{
+    color: #795338;
+}
+
+/*================================================================
+About us
+================================================================*/
+.about-us{
+    padding: 25px;
+}
+.about-us-content{
+    width: 400px;
+}
+#about-us-content-p-padding{
+    padding-top: 25px;
+}
+/*================================================================
+Contact us
+================================================================*/
+.contact-us{
+    padding: 25px;
+}
+.contact-us-content{
+    width: 400px;
+}
+.contact-us-contact{
+    width: 400px;
+}
+.contact-us-contact h3{
+    padding-top: 10px;
+}
+#contact-us-places-padding{
+    padding-left: 30px;
+}
+#contact-us-content-p-padding{
+    padding-bottom: 10px;
+}
+input{
+    height: 15px;
+    width: 400px;
+}
+textarea{
+    height: 200px;
+    width: 400px;
+}
+
+#button-styling{
+    margin-top: 10px;
+    width: 100px;
+    height: 50px;
+    color: #795338;   
+
+}
+
+/*================================================================
+Footer
+================================================================*/
+
+footer {
+    background-color: #f07a19;
+}
+
+.foot-content {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.foot-content ul {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    -moz-flex-direction: row;
+    -ms-flex-direction: row;
+    -o-flex-direction: row;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.foot-content li a {
+    color: #fff;
+    width: 68px;
+    height: 68px;
+    border: solid 2px #fff;
+    border-radius: 100%;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: center;
+    -ms-align-items: center;
+    align-items: center;
+    margin: 10px;
+    font-size: 40px;
+}
+
+.foot-content a:hover{
+    color: #795338;
+    background-color: #fff;
+}
+
+.foot-content p {
+    color: #fff;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.copyright{
+    background: black;
+    padding: 10px;
+    
+}
+.copyright h4{
+    font-size: 1.2em;
+    color: #FFF;
+}
+
+
+/*================================================================
+Timo's test corner
+================================================================*/
+
+.iframe-round
+{
+    width: 600px;
+    height: 378px;
+    border-radius: 25px;
+    overflow: hidden;
+}
+iframe
+{
+    border-radius: 15px;
+}
+.mouse-click-pointer:hover
+{
+    cursor: pointer;
+}
