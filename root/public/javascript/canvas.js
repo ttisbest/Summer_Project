@@ -21,10 +21,10 @@
                 // start / set up
                 break;
             case 2:
-                // wait on click
+                // wait on click and controle input form and set the back and in motion
                 break;
             case 3:
-                // turning and 
+                // turning till response and than stop
                 break;
             default:
                 change_case = 0;
