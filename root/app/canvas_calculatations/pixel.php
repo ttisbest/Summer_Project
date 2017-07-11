@@ -20,20 +20,23 @@ class pixel
     {
         $this->x = $x;
         $this->y = $y;
-        $this->y_Temp = $y;
+        $this->y_Temp = $x;
         $this->color = $color;
     }
 
     function printe()
     {
-        $this->y_Temp++;
-        echo "
+        if ($this->color != NULL)
+        {
+            $this->y_Temp++;
+            echo "
         ctx.beginPath();
         ctx.moveTo(".$this->x.",".$this->y.");
-        ctx.lineTo(".$this->x.",".$this->y_Temp.");
+        ctx.lineTo(".$this->y_Temp.",".$this->y.");
         ctx.strokeStyle = \"".$this->color."\";
         ctx.stroke();
         ctx.closePath();
         ";
+        }
     }
 }

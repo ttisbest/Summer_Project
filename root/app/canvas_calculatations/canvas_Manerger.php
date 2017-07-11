@@ -1,5 +1,5 @@
 <?php
-include_once ("pixel.php");
+include_once ("black_line.php");
 echo "<script>
 var canvas = document.getElementById('canvas');
     var ctx = canvas.getContext('2d');
@@ -34,19 +34,36 @@ var canvas = document.getElementById('canvas');
         ctx.fillText(\"Spin\", 460, 585);
         ctx.closePath();
 ";
-
-for ($i = 52 ; $i < 973; $i++)
+printeblack(52);
+for ($i = 57;$i<358;$i+=5)
 {
-    for ($j = 50; $j < 450; $j++)
-    {
-        if (($i >= 52 && $i <= 57) || ($i >= 357 && $i <= 362) || ($i >= 662 && $i <= 668) || ($i >= 968 && $i <= 973)) {
-            $rmd = new \dion\pixel($i,$j,"#000000");
-            $rmd->printe();
-        }
-        else {
-            $rmd = new \dion\pixel($i,$j,"#ffffff");
-            $rmd->printe();
-        }
-    }
+    printewhite($i);
 }
-echo "</script>";
+printeblack($i);
+for ($i += 5;$i<658;$i+=5)
+{
+    printewhite($i);
+    printewhite2($i);
+}
+printeblack2($i);
+for ($i += 5;$i<972;$i+=5)
+{
+    printewhite2($i);
+}
+printeblack2($i);
+echo "
+    //logo's
+    var logo = new Image();
+  	logo.src = 'img/slot/Avatar.jpg';
+  	logo.onload = function()
+  	{
+    ctx.drawImage(logo, 390, 125, 250, 250);
+    ctx.drawImage(logo, 85, 150, 200, 200);
+    ctx.drawImage(logo, 740, 150, 200, 200);
+	}
+
+</script>";
+
+
+
+

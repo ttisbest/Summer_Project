@@ -13,5 +13,5 @@
 </div>
 <?php
 include_once ("tamplates/foot.php");
-include_once ("../app/canvas_calculatations/canvas_Manerger.php")
+include_once ("../app/canvas_calculatations/canvas_Manerger.php");
 ?>
