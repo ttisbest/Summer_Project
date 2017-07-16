@@ -369,3 +369,23 @@ canvas
 {
     margin-bottom: 15px;
 }
+
+.error
+{
+    color: #f00;
+}
+.left-line
+{
+    border-right: ridge #000000 2px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+.sw5
+{
+    width: 512px;
+    padding: 40px 20px;
+}
+.add_line
+{
+    margin-top: 15px;
+}

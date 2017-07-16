@@ -3,7 +3,7 @@ function printeblack($x)
 {
     $x = $x;
     $x2 = $x + 5;
-    $y =50;
+    $y =0;
     $temp = 0;
     for ($i = 0; $i < 400; $i++)
     {
@@ -14,6 +14,7 @@ function printeblack($x)
             ctx.moveTo(".$x.",".$y.");
             ctx.lineTo(".$x2.",".$y.");
             ctx.strokeStyle = \"#000\";
+            ctx.shadowBlur = 0;
             ctx.stroke();
             ctx.closePath();
             ";
@@ -98,7 +99,7 @@ function printewhite($x)
 {
     $x = $x;
     $x2 = $x + 5;
-    $y =50;
+    $y =0;
     $temp = 0;
     for ($i = 0; $i < 400; $i++)
     {
@@ -196,7 +197,7 @@ function printeblack2($x)
 {
     $x = $x;
     $x2 = $x + 5;
-    $y =50;
+    $y =0;
     $temp = 0;
     for ($i = 0; $i < 400; $i++)
     {
@@ -291,7 +292,7 @@ function printewhite2($x)
 {
     $x = $x;
     $x2 = $x + 5;
-    $y =50;
+    $y =0;
     $temp = 0;
     for ($i = 0; $i < 400; $i++)
     {

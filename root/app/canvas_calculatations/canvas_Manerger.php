@@ -4,34 +4,19 @@ echo "<script>
 var canvas = document.getElementById('canvas');
     var ctx = canvas.getContext('2d');
     canvas.width = 1024;
-    canvas.height = 700;
+    canvas.height = 400;
     var cHeight = canvas.height;
     var cWidth = canvas.width;
  // gradients
         var gradient = ctx.createRadialGradient(500, 500, 900, 500, 200, 150);
-        gradient.addColorStop(0, '#555555');
-        gradient.addColorStop(1, '#ffffff');
+        gradient.addColorStop(0,\"rgba(255,255,255,0.1)\");
+        gradient.addColorStop(1, 'rgba(255,255,255,0.2)');
 
         // background
         ctx.clearRect(0, 0, canvas.width, canvas.height);
         ctx.beginPath();
         ctx.fillStyle = gradient;
         ctx.fillRect(0, 0, cWidth, cHeight);
-        ctx.closePath();
-
-        // button
-        ctx.fillStyle = \"#f00\";
-        ctx.beginPath();
-        ctx.arc(510, 570, 100, 360, 0, Math.PI);
-        ctx.shadowColor = 'black';
-        ctx.shadowBlur = 75;
-        ctx.fill();
-        ctx.closePath();
-
-        // Spin
-        ctx.font = \"45px Arial\";
-        ctx.fillStyle = \"#ffffff\";
-        ctx.fillText(\"Spin\", 460, 585);
         ctx.closePath();
 ";
 printeblack(52);
@@ -57,9 +42,10 @@ echo "
   	logo.src = 'img/slot/Avatar.jpg';
   	logo.onload = function()
   	{
-    ctx.drawImage(logo, 390, 125, 250, 250);
-    ctx.drawImage(logo, 85, 150, 200, 200);
-    ctx.drawImage(logo, 740, 150, 200, 200);
+  	  	ctx.shadowBlur = 0;
+        ctx.drawImage(logo, 390, 75, 250, 250);
+        ctx.drawImage(logo, 85, 100, 200, 200);
+        ctx.drawImage(logo, 740, 100, 200, 200);
 	}
 
 </script>";
