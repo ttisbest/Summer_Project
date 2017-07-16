@@ -36,12 +36,9 @@ $(document).ready(function () {
 
 
     canvas2.addEventListener("click", function () {
-        var con = true;
+        var con = controlle();
         if (con) {
             animatieMeneger();
-            // run de animatie
-            // data weg schrijven.
-            // reset
         }
     });
 

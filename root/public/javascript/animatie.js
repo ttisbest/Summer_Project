@@ -1,14 +1,13 @@
-var y1 = 0;
-var y2 = 400;
-var y3 = 0;
+var l1_yw2 = 400;
+var l2_yw2 = -200;
 var img = [ "knifes/rust.png",
             "ump/scaffold.png",
             "p90/shape.png",
             "mac10/fade.png",
             "dlore.png",
             "m4a1-s/golden.png",
-            "never/loudmounth.png",
-            "ssg/ghost.png",
+            "negev/loudmounth.png",
+            "SSG/ghost.png",
             "fireserpent.png",
             "usp/kc.png"];
 
@@ -28,7 +27,8 @@ function runAni() {
         var rol1 = new Image();
         var rol2 = new Image();
         var i = 0;
-        timer2 = setInterval(test21,6500);
+        test21();
+        var timer = setInterval(test21,6100);
 
         function test21()
         {
@@ -42,13 +42,16 @@ function runAni() {
                 ctx.drawImage(rol1, 390, 400, 250, 250);
                 ctx.drawImage(rol2, 85, -200, 200, 200);
                 ctx.drawImage(rol2, 740, -200, 200, 200);
-                var timer = setInterval(move2, 10);
-                l1_yw2 = 400;
-                l2_yw2 = -200;
+                if (l2_yw2 >= 400)
+                {
+                    clearInterval(timer2);
+                    l1_yw2 = 400;
+                    l2_yw2 = -200;
+                }
+                timer2 = setInterval(move2, 10);
             };
 
-
-            function move2() {
+            function move2(){
                 ctx.drawImage(rol1, 390, l1_yw2, 250, 250);
                 ctx.drawImage(rol2, 85, l2_yw2, 200, 200);
                 ctx.drawImage(rol2, 740, l2_yw2, 200, 200);
@@ -88,15 +91,17 @@ function runAni() {
                 ctx.fill();
                 ctx.closePath();
 
-                if (l1_yw2 == 400)
-                {
-                    clearTimeout(timer);
-                }
+
             }
+
             if (i == 10)
             {
-                clearInterval(timer2);
-                done();
+                clearInterval(timer);
+                var done1 = setInterval(callDone, 6100);
+                function callDone() {
+                    clearInterval(done1);
+                    done();
+                }
             }
         }
     }
@@ -111,9 +116,10 @@ function runAni() {
             ctx.drawImage(win, 740, -200, 200, 200);
         };
 
-        var timer = setInterval(move, 10);
         l1_yw = 400;
         l2_yw = -200;
+        var timer = setInterval(move, 10);
+
 
         function move() {
             ctx.drawImage(win, 390, l1_yw, 250, 250);
