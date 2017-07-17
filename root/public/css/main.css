@@ -389,3 +389,37 @@ canvas
 {
     margin-top: 15px;
 }
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed;
+    z-index: 1; /* Sit on top */
+    left: 40%;
+    top: 30%;
+    width: 300px; /* Full width */
+    height: 150px; /* Full height */
+    border: solid 3px #f07a19;
+    background: url("../img/bg.png");
+}
+.modal h2
+{
+    margin: 40px;
+    width: 100%;
+    color: #f07a19;
+    font-weight: 900;
+    letter-spacing: 3px;
+}
+.modal p
+{
+    margin: 20px 40px;
+}
+.overlay{
+    display: none;
+    position: fixed;
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}

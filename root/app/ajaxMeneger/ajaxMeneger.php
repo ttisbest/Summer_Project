@@ -7,10 +7,10 @@ if (isset($_POST["request"]))
 {
     if ($_POST["request"] == 1)
     {
-        if (isset($_POST["username"]) && isset($_POST["trade_link"]))
+        if (isset($_POST["username"]) && isset($_POST["trade-link"]))
         {
             $username = $_POST["username"];
-            $trade_link = $_POST["trade_link"];
+            $trade_link = $_POST["trade-link"];
 
             $dbc = \App\Connect();
 
@@ -20,7 +20,9 @@ if (isset($_POST["request"]))
             {
                 $sql = "INSERT INTO `customers`(`username`, `tradelink`) VALUES (\"".$username."\",\"".$trade_link."\")";
                 $dbc->query($sql);
-                echo true;
+                $sql = "SELECT * FROM `customers` WHERE `username` =\"".$username."\"";
+                $result = $dbc->query($sql)->fetchAll();
+                echo $result[0]["id"];
             }
             else
             {
@@ -28,9 +30,11 @@ if (isset($_POST["request"]))
                 $result = $dbc->query($sql)->rowCount();
                 if ($result == 0)
                 {
+                    $result2 = $dbc->query($sql)->fetchAll();
+
                     $sql = "UPDATE `customers` SET `tradelink`= \"".$trade_link."\" WHERE `username` = \"".$username."\"";
                     $dbc->query($sql);
-                    echo true;
+                    echo $result2[0]["id"];
                 }
                 else
                 {
@@ -43,9 +47,9 @@ if (isset($_POST["request"]))
     elseif ($_POST["request"] == 2)
     {
         $skin = getSkin();
-        $sql = "SELECT `img` FROM `skins` WHERE `id` =".$skin;
+        $sql = "SELECT `id`,`img` FROM `skins` WHERE `id` =".$skin;
         $resuld = \App\Connect()->query($sql)->fetchAll();
-        echo $resuld[0]["img"];
+        echo $resuld[0]["img"].";".$resuld[0]["id"];
     }
     elseif ($_POST["request"] == 3)
     {
@@ -67,6 +71,17 @@ if (isset($_POST["request"]))
             echo $imgs . $resuld[0]["img"];
         }
         echo false;
+    }
+    elseif ($_POST["request"] == 4)
+    {
+        if (isset($_POST["id"]) && isset($_POST["user"]))
+        {
+            $sql = "INSERT INTO `sold_skins`(`username_id`, `skin_id`) VALUES (\"".$_POST["user"]."\",\"".$_POST["id"]."\");";
+            \App\Connect()->query($sql);
+            $sq2l = "SELECT `name`, `descripson` FROM `skins` WHERE `id` =".$_POST["id"];
+                $result2 = \App\Connect()->query($sq2l)->fetchAll();
+            echo $result2[0]["name"] + ";" + $result2[0]["descripson"];
+        }
     }
     echo false;
 }

@@ -1,3 +1,4 @@
+var userid;
 $(document).ready(function () {
 
     var canvas2 = document.getElementById('canvas2');
@@ -36,8 +37,8 @@ $(document).ready(function () {
 
 
     canvas2.addEventListener("click", function () {
-        var con = controlle();
-        if (con) {
+        controlle();
+        if (userid != false) {
             animatieMeneger();
         }
     });
@@ -57,14 +58,14 @@ $(document).ready(function () {
                     "trade-link": trade_link
                 }
             }).done(function (data) {
-                return data;
+                userid = data;
             });
         }
         else {
             var error = "you did not fill in username or trade-link";
             document.getElementById("error_p").innerHTML = error;
+            userid = false;
         }
-        return false;
     }
 
     function animatieMeneger() {

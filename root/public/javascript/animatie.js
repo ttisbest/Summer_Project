@@ -1,5 +1,6 @@
 var l1_yw2 = 400;
 var l2_yw2 = -200;
+var win_Id;
 var img = [ "knifes/rust.png",
             "ump/scaffold.png",
             "p90/shape.png",
@@ -21,6 +22,10 @@ function runAni() {
         }
     }).done(function (data) {
         winSkin = data;
+        var temp = winSkin.split(";");
+        winSkin = temp[0];
+        win_Id = temp[1];
+
         animatie();
     });
     function animatie() {
@@ -163,7 +168,30 @@ function runAni() {
 
             if (l1_yw == 75) {
                 clearTimeout(timer);
+                prep();
             }
         }
     }
+}
+function prep() {
+    var discripson;
+    var title;
+    $.ajax("../app/ajaxMeneger/ajaxMeneger.php", {
+        type: "POST",
+        data: {
+            "request": 4,
+            "id": win_Id,
+            "user": userid
+        }
+    }).done(function (data) {
+        winSkin = data;
+        winSkin = winSkin.split(";");
+        title = winSkin[0];
+        discripson = winSkin[1];
+        document.getElementById("winSkinTitle").innerHTML = title;
+        document.getElementById("winSkinSub").innerHTML = discripson;
+        openLogin();
+    });
+
+
 }
