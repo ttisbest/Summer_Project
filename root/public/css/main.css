@@ -412,6 +412,7 @@ canvas
 .modal p
 {
     margin: 20px 40px;
+    letter-spacing: 2px;
 }
 .overlay{
     display: none;

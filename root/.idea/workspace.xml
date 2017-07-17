@@ -38,8 +38,8 @@
       <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
-              <caret line="397" column="11" lean-forward="false" selection-start-line="397" selection-start-column="11" selection-end-line="397" selection-end-column="11" />
+            <state relative-caret-position="4689">
+              <caret line="414" column="21" lean-forward="false" selection-start-line="414" selection-start-column="21" selection-end-line="414" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -48,8 +48,18 @@
       <file leaf-file-name="animatie.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/javascript/animatie.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="397">
-              <caret line="187" column="29" lean-forward="true" selection-start-line="187" selection-start-column="29" selection-end-line="187" selection-end-column="29" />
+            <state relative-caret-position="437">
+              <caret line="181" column="24" lean-forward="false" selection-start-line="181" selection-start-column="24" selection-end-line="181" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DatabaseConfig.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/database/DatabaseConfig.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="10" column="27" lean-forward="false" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -58,23 +68,23 @@
       <file leaf-file-name="ajaxMeneger.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/ajaxMeneger/ajaxMeneger.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="451">
-              <caret line="82" column="53" lean-forward="false" selection-start-line="82" selection-start-column="53" selection-end-line="82" selection-end-column="53" />
+            <state relative-caret-position="503">
+              <caret line="82" column="12" lean-forward="false" selection-start-line="82" selection-start-column="12" selection-end-line="82" selection-end-column="12" />
               <folding>
-                <marker date="1500293162685" expanded="true" signature="398:459" ph="SELECT * FRO... customers" />
-                <marker date="1500293162685" expanded="true" signature="583:678" ph="INSERT INTO `customers`... " />
-                <marker date="1500293162685" expanded="true" signature="740:801" ph="SELECT * FRO... customers" />
-                <marker date="1500293162685" expanded="true" signature="969:1070" ph="SELECT * FRO... customers" />
-                <marker date="1500293162685" expanded="true" signature="1273:1365" ph="UPDATE `cust... " />
-                <marker date="1500293162685" expanded="true" signature="1692:1735" ph="SELECT `img`... skins" />
-                <marker date="1500293162685" expanded="true" signature="2052:2093" ph="SELECT * FRO... skins" />
-                <marker date="1500293162685" expanded="true" signature="2052:2099" ph="SELECT `img`... skins" />
-                <marker date="1500293162685" expanded="true" signature="2471:2509" ph="SELECT 'img'... " />
-                <marker date="1500293162685" expanded="true" signature="2471:2528" ph="SELECT 'img'... " />
-                <marker date="1500293162685" expanded="true" signature="2803:2862" ph="INSERT INTO `sold_skins`... " />
-                <marker date="1500293162685" expanded="true" signature="2803:2885" ph="INSERT INTO `sold_skins`... " />
-                <marker date="1500293162685" expanded="true" signature="2803:2906" ph="INSERT INTO `sold_skins`... " />
-                <marker date="1500293162685" expanded="true" signature="2972:3025" ph="SELECT `name... skins" />
+                <marker date="1500308217961" expanded="true" signature="398:459" ph="SELECT * FRO... customers" />
+                <marker date="1500308217961" expanded="true" signature="583:678" ph="INSERT INTO `customers`... " />
+                <marker date="1500308217961" expanded="true" signature="740:801" ph="SELECT * FRO... customers" />
+                <marker date="1500308217961" expanded="true" signature="969:1070" ph="SELECT * FRO... customers" />
+                <marker date="1500308217961" expanded="true" signature="1273:1365" ph="UPDATE `cust... " />
+                <marker date="1500308217961" expanded="true" signature="1692:1735" ph="SELECT `img`... skins" />
+                <marker date="1500308217961" expanded="true" signature="2052:2093" ph="SELECT * FRO... skins" />
+                <marker date="1500308217961" expanded="true" signature="2052:2099" ph="SELECT `img`... skins" />
+                <marker date="1500308217961" expanded="true" signature="2471:2509" ph="SELECT 'img'... " />
+                <marker date="1500308217961" expanded="true" signature="2471:2528" ph="SELECT 'img'... " />
+                <marker date="1500308217961" expanded="true" signature="2803:2862" ph="INSERT INTO `sold_skins`... " />
+                <marker date="1500308217961" expanded="true" signature="2803:2885" ph="INSERT INTO `sold_skins`... " />
+                <marker date="1500308217961" expanded="true" signature="2803:2906" ph="INSERT INTO `sold_skins`... " />
+                <marker date="1500308217961" expanded="true" signature="2971:3024" ph="SELECT `name... skins" />
               </folding>
             </state>
           </provider>
@@ -90,7 +100,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="login.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/javascript/login.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="147">
@@ -138,12 +148,12 @@
         <option value="$PROJECT_DIR$/app/skins/skinrmd.php" />
         <option value="$PROJECT_DIR$/app/test.php" />
         <option value="$PROJECT_DIR$/app/canvas_calculatations/black_line.php" />
-        <option value="$PROJECT_DIR$/public/css/main.css" />
         <option value="$PROJECT_DIR$/public/slot.php" />
         <option value="$PROJECT_DIR$/public/javascript/canvas2.js" />
-        <option value="$PROJECT_DIR$/app/ajaxMeneger/ajaxMeneger.php" />
-        <option value="$PROJECT_DIR$/public/javascript/animatie.js" />
         <option value="$PROJECT_DIR$/public/javascript/login.js" />
+        <option value="$PROJECT_DIR$/app/ajaxMeneger/ajaxMeneger.php" />
+        <option value="$PROJECT_DIR$/public/css/main.css" />
+        <option value="$PROJECT_DIR$/public/javascript/animatie.js" />
       </list>
     </option>
   </component>
@@ -456,16 +466,16 @@
       <workItem from="1500123929762" duration="489000" />
       <workItem from="1500124421348" duration="41000" />
       <workItem from="1500124489585" duration="37889000" />
-      <workItem from="1500284596050" duration="5951000" />
+      <workItem from="1500284596050" duration="9849000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="121890000" />
+    <option name="totallyTimeSpent" value="125788000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -681,14 +691,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/test.php" />
-    <entry file="file://$PROJECT_DIR$/config/database/DatabaseConfig.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="38" lean-forward="false" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/canvas_calculatations/canvas_Manerger.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
@@ -772,10 +774,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/main.css">
+    <entry file="file://$PROJECT_DIR$/public/slot.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="397" column="11" lean-forward="false" selection-start-line="397" selection-start-column="11" selection-end-line="397" selection-end-column="11" />
+        <state relative-caret-position="63">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/javascript/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="60" lean-forward="false" selection-start-line="7" selection-start-column="60" selection-end-line="7" selection-end-column="60" />
           <folding />
         </state>
       </provider>
@@ -784,14 +794,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1533">
           <caret line="73" column="24" lean-forward="false" selection-start-line="73" selection-start-column="24" selection-end-line="73" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/slot.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -806,39 +808,47 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/ajaxMeneger/ajaxMeneger.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="451">
-          <caret line="82" column="53" lean-forward="false" selection-start-line="82" selection-start-column="53" selection-end-line="82" selection-end-column="53" />
+        <state relative-caret-position="503">
+          <caret line="82" column="12" lean-forward="false" selection-start-line="82" selection-start-column="12" selection-end-line="82" selection-end-column="12" />
           <folding>
-            <marker date="1500293162685" expanded="true" signature="398:459" ph="SELECT * FRO... customers" />
-            <marker date="1500293162685" expanded="true" signature="583:678" ph="INSERT INTO `customers`... " />
-            <marker date="1500293162685" expanded="true" signature="740:801" ph="SELECT * FRO... customers" />
-            <marker date="1500293162685" expanded="true" signature="969:1070" ph="SELECT * FRO... customers" />
-            <marker date="1500293162685" expanded="true" signature="1273:1365" ph="UPDATE `cust... " />
-            <marker date="1500293162685" expanded="true" signature="1692:1735" ph="SELECT `img`... skins" />
-            <marker date="1500293162685" expanded="true" signature="2052:2093" ph="SELECT * FRO... skins" />
-            <marker date="1500293162685" expanded="true" signature="2052:2099" ph="SELECT `img`... skins" />
-            <marker date="1500293162685" expanded="true" signature="2471:2509" ph="SELECT 'img'... " />
-            <marker date="1500293162685" expanded="true" signature="2471:2528" ph="SELECT 'img'... " />
-            <marker date="1500293162685" expanded="true" signature="2803:2862" ph="INSERT INTO `sold_skins`... " />
-            <marker date="1500293162685" expanded="true" signature="2803:2885" ph="INSERT INTO `sold_skins`... " />
-            <marker date="1500293162685" expanded="true" signature="2803:2906" ph="INSERT INTO `sold_skins`... " />
-            <marker date="1500293162685" expanded="true" signature="2972:3025" ph="SELECT `name... skins" />
+            <marker date="1500308217961" expanded="true" signature="398:459" ph="SELECT * FRO... customers" />
+            <marker date="1500308217961" expanded="true" signature="583:678" ph="INSERT INTO `customers`... " />
+            <marker date="1500308217961" expanded="true" signature="740:801" ph="SELECT * FRO... customers" />
+            <marker date="1500308217961" expanded="true" signature="969:1070" ph="SELECT * FRO... customers" />
+            <marker date="1500308217961" expanded="true" signature="1273:1365" ph="UPDATE `cust... " />
+            <marker date="1500308217961" expanded="true" signature="1692:1735" ph="SELECT `img`... skins" />
+            <marker date="1500308217961" expanded="true" signature="2052:2093" ph="SELECT * FRO... skins" />
+            <marker date="1500308217961" expanded="true" signature="2052:2099" ph="SELECT `img`... skins" />
+            <marker date="1500308217961" expanded="true" signature="2471:2509" ph="SELECT 'img'... " />
+            <marker date="1500308217961" expanded="true" signature="2471:2528" ph="SELECT 'img'... " />
+            <marker date="1500308217961" expanded="true" signature="2803:2862" ph="INSERT INTO `sold_skins`... " />
+            <marker date="1500308217961" expanded="true" signature="2803:2885" ph="INSERT INTO `sold_skins`... " />
+            <marker date="1500308217961" expanded="true" signature="2803:2906" ph="INSERT INTO `sold_skins`... " />
+            <marker date="1500308217961" expanded="true" signature="2971:3024" ph="SELECT `name... skins" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4689">
+          <caret line="414" column="21" lean-forward="false" selection-start-line="414" selection-start-column="21" selection-end-line="414" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/javascript/animatie.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="187" column="29" lean-forward="true" selection-start-line="187" selection-start-column="29" selection-end-line="187" selection-end-column="29" />
+        <state relative-caret-position="437">
+          <caret line="181" column="24" lean-forward="false" selection-start-line="181" selection-start-column="24" selection-end-line="181" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/javascript/login.js">
+    <entry file="file://$PROJECT_DIR$/config/database/DatabaseConfig.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="60" lean-forward="false" selection-start-line="7" selection-start-column="60" selection-end-line="7" selection-end-column="60" />
+        <state relative-caret-position="210">
+          <caret line="10" column="27" lean-forward="false" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
           <folding />
         </state>
       </provider>

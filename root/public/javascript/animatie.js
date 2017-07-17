@@ -2,12 +2,14 @@ var l1_yw2 = 400;
 var l2_yw2 = -200;
 var win_Id;
 var img = [ "knifes/rust.png",
-            "ump/scaffold.png",
+            "gammadoppler.png",
             "p90/shape.png",
             "mac10/fade.png",
             "dlore.png",
-            "m4a1-s/golden.png",
+            "howl.png",
             "negev/loudmounth.png",
+            "karafade.png",
+            "lore.png",
             "SSG/ghost.png",
             "fireserpent.png",
             "usp/kc.png"];
@@ -33,7 +35,7 @@ function runAni() {
         var rol2 = new Image();
         var i = 0;
         test21();
-        var timer = setInterval(test21,6100);
+        var timer = setInterval(test21,5500);
 
         function test21()
         {
@@ -53,7 +55,7 @@ function runAni() {
                     l1_yw2 = 400;
                     l2_yw2 = -200;
                 }
-                timer2 = setInterval(move2, 10);
+                timer2 = setInterval(move2, 7);
             };
 
             function move2(){
@@ -99,7 +101,7 @@ function runAni() {
 
             }
 
-            if (i == 10)
+            if (i == 12)
             {
                 clearInterval(timer);
                 var done1 = setInterval(callDone, 6100);
@@ -123,7 +125,7 @@ function runAni() {
 
         l1_yw = 400;
         l2_yw = -200;
-        var timer = setInterval(move, 10);
+        var timer = setInterval(move, 7);
 
 
         function move() {
@@ -168,12 +170,16 @@ function runAni() {
 
             if (l1_yw == 75) {
                 clearTimeout(timer);
-                prep();
+                prprep();
             }
         }
     }
+}var time;
+function prprep() {
+    time = setInterval(prep,1000)
 }
 function prep() {
+    clearInterval(time);
     var discripson;
     var title;
     $.ajax("../app/ajaxMeneger/ajaxMeneger.php", {
@@ -185,6 +191,7 @@ function prep() {
         }
     }).done(function (data) {
         winSkin = data;
+        console.log(winSkin);
         winSkin = winSkin.split(";");
         title = winSkin[0];
         discripson = winSkin[1];

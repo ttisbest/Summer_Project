@@ -78,9 +78,9 @@ if (isset($_POST["request"]))
         {
             $sql = "INSERT INTO `sold_skins`(`username_id`, `skin_id`) VALUES (\"".$_POST["user"]."\",\"".$_POST["id"]."\");";
             \App\Connect()->query($sql);
-            $sq2l = "SELECT `name`, `descripson` FROM `skins` WHERE `id` =".$_POST["id"];
-                $result2 = \App\Connect()->query($sq2l)->fetchAll();
-            echo $result2[0]["name"] + ";" + $result2[0]["descripson"];
+            $sql = "SELECT `name`, `descripson` FROM `skins` WHERE `id` =".$_POST["id"];
+            $result = \App\Connect()->query($sql)->fetchAll();
+            echo $result[0]["name"].";".$result[0]["descripson"];
         }
     }
     echo false;
